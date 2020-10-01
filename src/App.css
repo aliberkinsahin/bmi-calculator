@@ -7,18 +7,29 @@
 }
 .Info {
   width: 60%;
-  padding-top: 4rem;
 }
 
 .ButtonContainer {
-  border: 1px solid magenta;
   width: 100%;
 }
 
-.Button{
+.Button {
   border-radius: 10px;
   height: 40px;
   width: 20%;
+  border: 0.5px solid blue;
+  background-color: white;
+  font-weight: bold;
+  color: blue;
+}
+.Button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: blue;
+}
+
+.Button:focus {
+  outline: none;
 }
 
 .Graph a {
@@ -31,4 +42,10 @@
 .Chart {
   width: 80%;
   padding-top: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .Chart {
+    width: 100%;
+  }
 }
