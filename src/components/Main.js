@@ -14,8 +14,8 @@ const calculationVariants = {
 
 export default function Main() {
   const [bmiCalculated, setBmiCalculated] = useState(false);
-  const [weight, setWeight] = useState(0);
-  const [height, setHeight] = useState(0);
+  const [weight, setWeight] = useState();
+  const [height, setHeight] = useState();
   const [bmi, setBmi] = useState(0);
   const [bmiText, setBmiText] = useState("");
 
