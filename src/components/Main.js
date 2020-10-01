@@ -84,7 +84,7 @@ export default function Main() {
 
           <div className="Height">
             <input
-              type="numbers"
+              type="number"
               id="height"
               value={height}
               onChange={(e) => updateHeight(e.target.value)}
